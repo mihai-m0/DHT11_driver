@@ -96,12 +96,7 @@ python plot_log.py dht11_log.csv --save plot.png # save an image
 ```
 
 ## Results
-
-> Fill this in with your own measurements, for example:
-> - a photo of the wiring
-> - a screenshot of the Serial Monitor output
-> - a plot from `plot_log.py`
-> - a comparison of the driver's readings against a reference thermometer or a standard DHT library on the same sensor
+-to add
 
 
 
