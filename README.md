@@ -12,7 +12,8 @@ Most DHT11 tutorials call a library. This project talks to the sensor by driving
 
 ### Wiring
 
--to add
+![Wiring](wiring.png)
+
 
 ## How the protocol works
 
@@ -68,15 +69,6 @@ if (ok) {
 Error messages (`No response`, `Sum is wrong!`, `Something wrong:`) are printed as plain text.
 
 ### 2. Python logger
-
-```bash
-cd python
-pip install -r requirements.txt
-
-# find your port: COMx on Windows, /dev/ttyACM0 or /dev/ttyUSB0 on Linux, /dev/cu.usbmodem* on macOS
-python dht11_logger.py COM3 --output dht11_log.csv
-```
-
 **Close the Arduino Serial Monitor first.** Only one program can hold the port at a time.
 
 The logger appends one row per reading and echoes any non-reading lines from the Arduino:
