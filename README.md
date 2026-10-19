@@ -1,5 +1,5 @@
 # DHT11 Driver from Scratch (Arduino, C++)
-![Board](board.jpeg)
+<img src="board.jpeg" alt="Circuit Wiring" width="80%">
 
 A driver for the DHT11 temperature and humidity sensor, written in C++ for the Arduino **without any sensor library**. It implements the sensor's single-wire protocol directly: start signal, 40-bit data frame, and checksum verification. A small Python tool logs the readings from the serial port to a CSV file and plots them.
 
@@ -87,6 +87,7 @@ Stop it with Ctrl+C.
 python plot_log.py dht11_log.csv                 # show a window
 python plot_log.py dht11_log.csv --save plot.png # save an image
 ```
-
-
+### 4.References
+https://ece-classes.usc.edu/ee459/library/datasheets/DHT11.pdf pages 5-8
+https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/ 
 
