@@ -88,6 +88,6 @@ python plot_log.py dht11_log.csv                 # show a window
 python plot_log.py dht11_log.csv --save plot.png # save an image
 ```
 ### 4.References
-https://ece-classes.usc.edu/ee459/library/datasheets/DHT11.pdf pages 5-8
+https://ece-classes.usc.edu/ee459/library/datasheets/DHT11.pdf pages 5-8<br>
 https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/ 
 
