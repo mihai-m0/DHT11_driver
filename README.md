@@ -1,5 +1,5 @@
 # DHT11 Driver from Scratch (Arduino, C++)
-<img src="board.jpeg" alt="Circuit Wiring" width="80%">
+![Board](board.jpeg)
 
 A driver for the DHT11 temperature and humidity sensor, written in C++ for the Arduino **without any sensor library**. It implements the sensor's single-wire protocol directly: start signal, 40-bit data frame, and checksum verification. A small Python tool logs the readings from the serial port to a CSV file and plots them.
 
